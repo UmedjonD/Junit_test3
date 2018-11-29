@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e75931af-d3cf-4452-8e40-11b4696b6d91" name="Default Changelist" comment="" />
+    <list default="true" id="e75931af-d3cf-4452-8e40-11b4696b6d91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit5_api_5_0_0_ALPHA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit5_engine_5_0_0_ALPHA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_commons_5_0_0_ALPHA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_engine_api_5_0_0_ALPHA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mocking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/epam/izhevsk/junit/PaymentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/epam/izhevsk/junit/PaymentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/epam/izhevsk/junit/PaymentControllerTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +93,7 @@
     <SUITE FILE_PATH="coverage/mocking$PaymentControllerTest_testSuccessDeposit.ic" NAME="PaymentControllerTest.testSuccessDeposit Coverage Results" MODIFIED="1543498669376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.epam.izhevsk.junit.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/mocking$PaymentControllerTest.ic" NAME="PaymentControllerTest Coverage Results" MODIFIED="1543500230384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/mocking$PaymentControllerTest.ic" NAME="PaymentControllerTest Coverage Results" MODIFIED="1543503456510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.epam.izhevsk.junit.*</FILTER>
     </SUITE>
   </component>
@@ -104,13 +124,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="732" />
+          <entry key="java" value="756" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="732" />
+          <entry key="JAVA" value="756" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -121,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="612">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -130,10 +150,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/epam/izhevsk/junit/PaymentControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="542">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/epam/izhevsk/junit/PaymentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -182,6 +204,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -192,11 +217,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="398" />
-    <option name="y" value="29" />
-    <option name="width" value="1389" />
-    <option name="height" value="965" />
+    <option name="x" value="498" />
+    <option name="width" value="1429" />
+    <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -265,7 +290,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543501684477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543503509610" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../junitmocking" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -284,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentControllerTest.testFailedDepozitWhenUserIsNot100L">
+  <component name="RunManager" selected="JUnit.PaymentControllerTest.testFiledDepositIfAmountBig">
     <configuration name="PaymentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mocking" />
       <extension name="coverage">
@@ -310,6 +335,22 @@
       <option name="PACKAGE_NAME" value="edu.epam.izhevsk.junit" />
       <option name="MAIN_CLASS_NAME" value="edu.epam.izhevsk.junit.PaymentControllerTest" />
       <option name="METHOD_NAME" value="testFailedDepozitWhenUserIsNot100L" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentControllerTest.testFiledDepositIfAmountBig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mocking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.epam.izhevsk.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.epam.izhevsk.junit" />
+      <option name="MAIN_CLASS_NAME" value="edu.epam.izhevsk.junit.PaymentControllerTest" />
+      <option name="METHOD_NAME" value="testFiledDepositIfAmountBig" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -352,13 +393,15 @@
       <item itemvalue="JUnit.PaymentControllerTest.testPaymentController" />
       <item itemvalue="JUnit.PaymentControllerTest" />
       <item itemvalue="JUnit.PaymentControllerTest.testFailedDepozitWhenUserIsNot100L" />
+      <item itemvalue="JUnit.PaymentControllerTest.testFiledDepositIfAmountBig" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaymentControllerTest.testFailedDepozitWhenUserIsNot100L" />
-        <item itemvalue="JUnit.PaymentControllerTest.testSuccessDeposit" />
+        <item itemvalue="JUnit.PaymentControllerTest.testFiledDepositIfAmountBig" />
         <item itemvalue="JUnit.PaymentControllerTest" />
+        <item itemvalue="JUnit.PaymentControllerTest.testSuccessDeposit" />
         <item itemvalue="JUnit.PaymentControllerTest.testPaymentController" />
+        <item itemvalue="JUnit.PaymentControllerTest.testFailedDepozitWhenUserIsNot100L" />
       </list>
     </recent_temporary>
   </component>
@@ -376,27 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaymentControllerTest_testSuccessDeposit - 2018.11.29 at 18h 02m 48s.xml">
-      <configuration name="PaymentControllerTest.testSuccessDeposit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 03m 51s.xml">
-      <configuration name="PaymentControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 06m 48s.xml">
-      <configuration name="PaymentControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentControllerTest_testSuccessDeposit - 2018.11.29 at 18h 18m 18s.xml">
-      <configuration name="PaymentControllerTest.testSuccessDeposit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentControllerTest_testSuccessDeposit - 2018.11.29 at 18h 18m 52s.xml">
-      <configuration name="PaymentControllerTest.testSuccessDeposit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentControllerTest_testSuccessDeposit - 2018.11.29 at 18h 19m 47s.xml">
-      <configuration name="PaymentControllerTest.testSuccessDeposit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentControllerTest_testSuccessDeposit - 2018.11.29 at 18h 20m 25s.xml">
-      <configuration name="PaymentControllerTest.testSuccessDeposit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PaymentControllerTest_testFailedDepozitWhenUserIsNot100L - 2018.11.29 at 18h 25m 35s.xml">
       <configuration name="PaymentControllerTest.testFailedDepozitWhenUserIsNot100L" configurationId="JUnit" />
     </history-entry>
@@ -406,9 +428,30 @@
     <history-entry file="PaymentControllerTest_testFailedDepozitWhenUserIsNot100L - 2018.11.29 at 18h 28m 06s.xml">
       <configuration name="PaymentControllerTest.testFailedDepozitWhenUserIsNot100L" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 49m 13s.xml">
+      <configuration name="PaymentControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentControllerTest_testPaymentController - 2018.11.29 at 18h 49m 39s.xml">
+      <configuration name="PaymentControllerTest.testPaymentController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentControllerTest_testSuccessDeposit - 2018.11.29 at 18h 49m 45s.xml">
+      <configuration name="PaymentControllerTest.testSuccessDeposit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 50m 30s.xml">
+      <configuration name="PaymentControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 50m 45s.xml">
+      <configuration name="PaymentControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 53m 24s.xml">
+      <configuration name="PaymentControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentControllerTest - 2018.11.29 at 18h 57m 22s.xml">
+      <configuration name="PaymentControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="398" y="29" width="1389" height="965" extended-state="0" />
+    <frame x="498" y="0" width="1429" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -418,7 +461,7 @@
       <window_info id="Capture Tool" />
       <window_info id="Test Runs" />
       <window_info id="Cloverage" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.100075245" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25858292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -427,7 +470,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.324295" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24669074" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2464403" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,13 +525,6 @@
     <entry file="file://$PROJECT_DIR$/mocking.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/epam/izhevsk/junit/InsufficientFundsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -512,17 +548,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/epam/izhevsk/junit/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/epam/izhevsk/junit/PaymentControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="542">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
           </folding>
         </state>
       </provider>

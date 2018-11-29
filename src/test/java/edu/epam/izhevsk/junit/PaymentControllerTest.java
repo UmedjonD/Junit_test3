@@ -4,7 +4,7 @@ package edu.epam.izhevsk.junit;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.AdditionalMatchers.*;
-import org.junit.gen5.api.BeforeEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -37,14 +37,13 @@ public class PaymentControllerTest {
     @Test
     public void testSuccessDeposit() {
         assertDoesNotThrow(() ->  paymentController.deposit(amount, userId));
-        //verify(accountService, times(1)).isUserAuthenticated(userId);
     }
     @Test
     public void testFailedDepozitWhenUserIsNot100L() throws InsufficientFundsException {
-        assertThrows(InsufficientFundsException.class, () -> paymentController.deposit(110L, 200L));
+        assertThrows(SecurityException.class, () -> paymentController.deposit(amount, 150L));
     }
     @Test
     public  void testFiledDepositIfAmountBig() throws InsufficientFundsException {
-        paymentController.deposit(200L, userId);
+        assertThrows(SecurityException.class, () -> paymentController.deposit(200L, 150L));
     }
 }
