@@ -39,11 +39,11 @@ public class PaymentControllerTest {
         assertDoesNotThrow(() ->  paymentController.deposit(amount, userId));
     }
     @Test
-    public void testFailedDepozitWhenUserIsNot100L() throws InsufficientFundsException {
+    public void testFailedDepozitWhenUserIsNot100L() {
         assertThrows(SecurityException.class, () -> paymentController.deposit(amount, 150L));
     }
     @Test
-    public  void testFiledDepositIfAmountBig() throws InsufficientFundsException {
+    public  void testFiledDepositIfAmountBig() {
         assertThrows(SecurityException.class, () -> paymentController.deposit(200L, 150L));
     }
 }

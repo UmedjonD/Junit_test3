@@ -1,0 +1,3 @@
+
+Ã%squid:RedundantThrowsDeclarationCheck*"ŠRemove the declaration of thrown exception 'edu.epam.izhevsk.junit.InsufficientFundsException', as it cannot be thrown from method's body.(Ó‹ˆÂ8€¼Åÿõ,
+Ã%squid:RedundantThrowsDeclarationCheck."ŠRemove the declaration of thrown exception 'edu.epam.izhevsk.junit.InsufficientFundsException', as it cannot be thrown from method's body.(ãÕžø8¼ßÅÿõ,
